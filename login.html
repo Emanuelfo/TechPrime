@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechPrime Login</title>
+  <link rel="stylesheet" href="desktop.css" />
+  <link rel="stylesheet" href="phone.css" media="(max-width: 768px)">
+  <link rel="icon" href="image/techlogo.png" type="image/png">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <img src="image/techlogo.png" alt="Logo TechPrime" class="logo" />
+      <h2>Bem-vindo à TechPrime</h2>
+      <p>Tecnologia que conecta você ao futuro.</p>
+      <script src="script.js"></script>
+    </div>
+    <div class="right-panel">
+      <h2>Login</h2>
+      <form>
+        <input type="text" placeholder="Usuário" minlength="5" maxlength="20" required />
+        <input type="password" placeholder="Senha" minlength="8" maxlength="20" required />
+        <a href="#" class="forgot">Esqueceu a senha?</a>
+        <button onclick="mostrar()" type="submit">Entrar</button>
+      </form>
+      <footer>
+        <p><a href="cadastro.html">Cadastro</a></p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
